@@ -9,8 +9,8 @@ module.exports.config = {
 }
 
 module.exports.run = async(client, message, args) => {
-
-    message.author.send("**Information**\n ```>support - be invited to our support server \n>help - to get a list of commands \n>partners - view our partnerships \n>privacy to view our privacy policy```")
+ 
+    message.channel.send("**Information**\n ```@tie's Utilities support - be invited to our support server \n@tie's Utilities help - to get a list of commands \n@tie's Utilities partners - view our partnerships \n@tie's Utilities privacy to view our privacy policy```")
 }
 
 
