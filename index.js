@@ -6,6 +6,8 @@ client.on('ready', client => {
     console.log('Wizard#2452 has logged in!')
 });
 
+
+
 require('./utils/defines')(client);
 require('./utils/structure/registery')(client);
 require('./utils/handlers/commands')(client);
