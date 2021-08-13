@@ -3,7 +3,7 @@ const client = new Client();
 const { token } = require('./config/bot.json')
 
 client.on('ready', client => {
-    console.log('Wizard#2452 has logged in!')
+    console.log('pog boi has logged in!')
 });
 
 require('./utils/defines')(client);
